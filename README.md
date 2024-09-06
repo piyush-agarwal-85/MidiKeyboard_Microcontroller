@@ -3,7 +3,9 @@ Making a Midi Keyboard with Microcontroller Arduino UNO and old Synthesiser
 ![IMG_20230925_233524](https://github.com/user-attachments/assets/8e7b1e11-bb21-4dbe-a6be-b6905e39d149)
 ![IMG_20230925_233532](https://github.com/user-attachments/assets/6fbc7572-3909-4542-96f4-e5f0cca7a334)
 <h2>Ho Gaya, thankyou, <b>Arigato Gozaimasu</b></h2>
-```// Pin Definitions
+
+```
+// Pin Definitions
 // Rows are connected to
 const int row1 = 5;
 const int row2 = 6;
