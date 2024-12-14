@@ -1,7 +1,4 @@
-# MidiKeyboard_Microcontroller
-Making a Midi Keyboard with Microcontroller Arduino UNO and old Synthesiser
-
-# Toy Synthesizer MIDI Keyboard
+# MIDI Keyboard using a MicroController
 
 This project demonstrates how to convert a toy synthesizer into a MIDI keyboard using an Arduino Uno, allowing for MIDI output to control digital audio workstations.
 
@@ -10,7 +7,7 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 - 74hc595 Shift Register
 - Jumper wires
 - Breadboard
-- Resistors
+- Resistors(10k)
 
 ## Circuit Diagram
 ![Circuit Diagram](path/to/circuit_diagram.png)
