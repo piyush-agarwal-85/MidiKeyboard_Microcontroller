@@ -21,7 +21,10 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 6. Upload the code to your Arduino Uno.
 
 ## Usage Instructions
-Connect the MIDI keyboard to your computer using a USB-MIDI interface and open your favorite DAW to start making music!
+1. Figure out the scan Marix of the synthiser with the help of Multimeter.
+2. Connect the ArduinoUno, ShirftRegister Pins and Synthesiser Keys according to the Circuit diagram.
+3. Connect the Arduino with your system and Select the Ardino MIDI in hairlessMIDI Control and LoopMIDI.
+4. Play the MIDI keyboard with the DAW
 
 ## Contributing
 Feel free to fork this repository and submit pull requests for improvements!
