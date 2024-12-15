@@ -13,10 +13,12 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 ![Circuit Diagram](ProteusProject_MidiKeyboard/MIDIkeyboardProteusCkt.png)
 
 ## Installation Instructions
-1. Install the Arduino IDE and necessary libraries (e.g., MIDIUSB).
+1. Install the Arduino IDE.
 2. Clone this repository.
 3. Open the `.ino` file in the Arduino IDE.
-4. Upload the code to your Arduino Uno.
+4. Reassign the pins according to the Key Matrix of the Keys.
+5. Install and run the LoopMIDI and HairlessMIDI software.
+6. Upload the code to your Arduino Uno.
 
 ## Usage Instructions
 Connect the MIDI keyboard to your computer using a USB-MIDI interface and open your favorite DAW to start making music!
@@ -30,7 +32,7 @@ Feel free to fork this repository and submit pull requests for improvements!
 ![Project_Image4](Images_MidiKeyboard/IMG4.jpg)
 ![Project_Image5](Images_MidiKeyboard/IMG5.jpg)
 
-<h2>References</b></h2>
+## References
 ShiftRegister Doc: https://docs.arduino.cc/tutorials/communication/guide-to-shift-out/
 YoutubeReference: https://youtu.be/qVPsnqUbu6M?feature=shared
 
