@@ -31,13 +31,11 @@ Feel free to fork this repository and submit pull requests for improvements!
 ![Project_Image5](Images_MidiKeyboard/IMG5.jpg)
 
 <h2>References</b></h2>
-https://docs.arduino.cc/tutorials/communication/guide-to-shift-out/
-
-https://youtu.be/qVPsnqUbu6M?feature=shared
+ShiftRegister Doc: https://docs.arduino.cc/tutorials/communication/guide-to-shift-out/
+YoutubeReference: https://youtu.be/qVPsnqUbu6M?feature=shared
 
 HairLess MidiControl: https://www.softpedia.com/get/Multimedia/Audio/Other-AUDIO-Tools/MIDIControl.shtml
 LoopMidi: https://loopmidi.software.informer.com/1.0/
-
 
 
 ```
