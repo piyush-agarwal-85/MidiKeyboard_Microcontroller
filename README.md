@@ -24,8 +24,12 @@ Connect the MIDI keyboard to your computer using a USB-MIDI interface and open y
 ## Contributing
 Feel free to fork this repository and submit pull requests for improvements!
 
-![IMG_20230925_233524](https://github.com/user-attachments/assets/8e7b1e11-bb21-4dbe-a6be-b6905e39d149)
-![IMG_20230925_233532](https://github.com/user-attachments/assets/6fbc7572-3909-4542-96f4-e5f0cca7a334)
+![Project_Image2](Images_MidiKeyboard/IMG2.jpg)
+![Project_Image3](Images_MidiKeyboard/IMG3.jpg)
+![Project_Image1](Images_MidiKeyboard/IMG1.jpg)
+![Project_Image4](Images_MidiKeyboard/IMG4.jpg)
+![Project_Image5](Images_MidiKeyboard/IMG5.jpg)
+
 <h2>References</b></h2>
 https://docs.arduino.cc/tutorials/communication/guide-to-shift-out/
 
