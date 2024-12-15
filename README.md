@@ -26,15 +26,6 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 3. Connect the Arduino with your system and Select the Ardino MIDI in hairlessMIDI Control and LoopMIDI.
 4. Play the MIDI keyboard with the DAW
 
-## Contributing
-Feel free to fork this repository and submit pull requests for improvements!
-
-![Project_Image2](Images_MidiKeyboard/IMG2.jpg)
-![Project_Image3](Images_MidiKeyboard/IMG3.jpg)
-![Project_Image1](Images_MidiKeyboard/IMG1.jpg)
-![Project_Image4](Images_MidiKeyboard/IMG4.jpg)
-![Project_Image5](Images_MidiKeyboard/IMG5.jpg)
-
 ## References
 YoutubeReference: https://youtu.be/qVPsnqUbu6M?feature=shared
 
@@ -43,4 +34,12 @@ ShiftRegister Doc: https://docs.arduino.cc/tutorials/communication/guide-to-shif
 HairLess MidiControl: https://www.softpedia.com/get/Multimedia/Audio/Other-AUDIO-Tools/MIDIControl.shtml
 
 LoopMidi: https://loopmidi.software.informer.com/1.0/
+
+![Project_Image2](Images_MidiKeyboard/IMG2.jpg)
+![Project_Image3](Images_MidiKeyboard/IMG3.jpg)
+![Project_Image1](Images_MidiKeyboard/IMG1.jpg)
+![Project_Image4](Images_MidiKeyboard/IMG4.jpg)
+![Project_Image5](Images_MidiKeyboard/IMG5.jpg)
+
+
 
