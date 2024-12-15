@@ -10,7 +10,7 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 - Resistors(10k)
 
 ## Circuit Diagram
-![Circuit Diagram](path/to/circuit_diagram.png)
+![Circuit Diagram](path/to/ProteusProject_MidiKeyboard/MIDIkeyboardProteusCkt.png)
 
 ## Installation Instructions
 1. Install the Arduino IDE and necessary libraries (e.g., MIDIUSB).
