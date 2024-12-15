@@ -3,11 +3,11 @@
 This project demonstrates how to convert a toy synthesizer into a MIDI keyboard using an Arduino Uno, allowing for MIDI output to control digital audio workstations.
 
 ## Components Used
-- Arduino Uno
+- Arduino Uno (input src USB)
 - 74hc595 Shift Register
+- Resistors(10k)
 - Jumper wires
 - Breadboard
-- Resistors(10k)
 
 ## Circuit Diagram
 ![Circuit Diagram](ProteusProject_MidiKeyboard/MIDIkeyboardProteusCkt.png)
