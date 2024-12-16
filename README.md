@@ -25,13 +25,16 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 
 >Turn on the multimeter and select the "Continuity" range (often indicated by a soundwave or diode symbol).
 Identify Key Connections
+
 >Press a key on the synthesizer and check which pins on the key matrix produce a response on the multimeter (usually a beep or a displayed value).
 Map the Keys
+
 >Systematically press each key on the synthesizer and document which rows and columns are connected for each key.
+
 >Create a matrix (like a table) to visualize and organize the connections, noting which row and column correspond to each key.
 ![KeyMatrix_Table](KeysAssigned/KeysMatrix.png)
 
-### Connect the Arduino Uno, Shift Register pins, and Synthesizer keys as per the circuit diagram.
+* Connect the Arduino Uno, Shift Register pins, and Synthesizer keys as per the circuit diagram.
 ![Circuit Diagram](ProteusProject_MidiKeyboard/MIDIkeyboardProteusCkt.png)
 
 >Refer to the circuit diagram to ensure proper connections between the Arduino Uno, Shift Register (e.g., 74HC595), and the Synthesizer key matrix.
