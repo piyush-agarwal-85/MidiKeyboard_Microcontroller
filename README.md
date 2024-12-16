@@ -23,9 +23,8 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 ## Usage Instructions
 * Set the Multimeter to Continuity Mode
 
-Turn on the multimeter and select the "Continuity" range (often indicated by a soundwave or diode symbol).
+>Turn on the multimeter and select the "Continuity" range (often indicated by a soundwave or diode symbol).
 Identify Key Connections
-
 Press a key on the synthesizer and check which pins on the key matrix produce a response on the multimeter (usually a beep or a displayed value).
 Map the Keys
 
