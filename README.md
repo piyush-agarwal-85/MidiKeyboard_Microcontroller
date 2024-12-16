@@ -21,10 +21,39 @@ This project demonstrates how to convert a toy synthesizer into a MIDI keyboard 
 6. Upload the code to your Arduino Uno.
 
 ## Usage Instructions
-1. Figure out the scan Marix of the synthiser with the help of Multimeter.
-2. Connect the ArduinoUno, ShirftRegister Pins and Synthesiser Keys according to the Circuit diagram.
-3. Connect the Arduino with your system and Select the Ardino MIDI in hairlessMIDI Control and LoopMIDI.
-4. Play the MIDI keyboard with the DAW
+* Set the Multimeter to Continuity Mode
+
+Turn on the multimeter and select the "Continuity" range (often indicated by a soundwave or diode symbol).
+Identify Key Connections
+
+Press a key on the synthesizer and check which pins on the key matrix produce a response on the multimeter (usually a beep or a displayed value).
+Map the Keys
+
+Systematically press each key on the synthesizer and document which rows and columns are connected for each key.
+Create a matrix (like a table) to visualize and organize the connections, noting which row and column correspond to each key.
+![KeyMatrix_Table](KeysAssigned/KeysMatrix.png)
+
+* Connect the Arduino Uno, Shift Register pins, and Synthesizer keys as per the circuit diagram.
+![Circuit Diagram](ProteusProject_MidiKeyboard/MIDIkeyboardProteusCkt.png)
+
+Refer to the circuit diagram to ensure proper connections between the Arduino Uno, Shift Register (e.g., 74HC595), and the Synthesizer key matrix.
+Connect the power (5V) and ground (GND) lines to the respective components.
+Connect the data (DS), shift clock (SH_CP), and latch clock (ST_CP) pins of the shift register to the corresponding digital pins on the Arduino.
+Connect the output pins of the shift register to the rows of the key matrix and link the columns of the key matrix to the Arduino’s input pins.
+
+* Connect the Arduino to your system and select "Arduino MIDI" in Hairless MIDI Control and LoopMIDI.
+
+Use a USB cable to connect the Arduino to your computer.
+Open LoopMIDI and create a virtual MIDI port (if not already done).
+Launch Hairless MIDI and select "Arduino MIDI" as the input device.
+Ensure that the virtual MIDI port from LoopMIDI is selected as the output device in Hairless MIDI.
+
+* Play the MIDI keyboard using the DAW.
+
+Open your Digital Audio Workstation (DAW) (like FL Studio, Ableton Live, Logic Pro, etc.).
+Configure the DAW to recognize the virtual MIDI port from LoopMIDI as an input.
+Load a virtual instrument or synthesizer plugin.
+Play the keys on your connected MIDI keyboard, and you should hear sounds from the DAW, with each key press corresponding to a note.
 
 ## References
 YoutubeReference: https://youtu.be/qVPsnqUbu6M?feature=shared
