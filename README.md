@@ -1,6 +1,6 @@
 # MIDI Keyboard using a MicroController
 
-This project demonstrates how to convert a toy synthesizer into a MIDI keyboard using an Arduino Uno, allowing for MIDI output to control digital audio workstations.
+Developing a MIDI keyboard using a microcontroller, enabling real-time musical note transmission to DAWs via MIDI protocols. The project includes key matrix scanning, shift register integration, and USB-MIDI communication.
 
 ## Components Used
 - Arduino Uno (input src USB)
